@@ -33,7 +33,7 @@ async def analyze_comment(request: CommentRequest):
 
     try:
         response = client.responses.parse(
-            model="gpt-4.1-mini",
+            model="gpt-4o-mini",
             input=[
                 {
                     "role": "system",
